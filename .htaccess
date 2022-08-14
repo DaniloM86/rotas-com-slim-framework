@@ -1,0 +1,8 @@
+Options -Indexes
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ ./index.php [QSA,NC]
+# filtra a url de arquivos iniciado com ponto passado de forma manual na (uri)
+RewriteRule ^(.env)$ ./index.php
+RewriteRule ^(.gitignore)$ ./index.php
+RewriteRule ^(.htaccess)$ ./index.php

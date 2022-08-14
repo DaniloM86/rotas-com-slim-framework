@@ -1,0 +1,11 @@
+{
+    "description": " aprendendo sobre mvc criando uma agenda virtual,e aprendendo sobre slim framework",
+    "autoload":{
+        "psr-4":{
+            "App\\":"app"
+        }
+    },
+    "require":{
+        "slim/slim":"^3.9"
+    }
+}

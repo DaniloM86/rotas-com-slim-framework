@@ -1,0 +1,34 @@
+<header>
+	<h3 class="text-white">Excluir Contato</h3>
+</header>
+<div>
+	<form method="DELETE" action="">
+		<div class="form-group">
+			<label for="id_Contato">ID</label>
+			<input type="text"class="form-control" name="idContato" value="{{id}}">
+		</div>
+		<div class="form-group">
+			<label for="nomeContato">Nome</label>
+			<input type="text"class="form-control" name="nomeContato" value="{{nome}}">
+		</div>
+		<div class="form-group">
+			<label for="emailContato">E-mail</label>
+			<input type="email"class="form-control" name="emailContato" value="{{email}}">
+		</div>
+		<div class="form-group">
+			<label for="telefoneContato">Telefone</label>
+			<input type="text"class="form-control" name="telefoneContato" value="{{telefone}}">
+		</div>
+		<div class="form-group">
+			<label for="sexoContato">Sexo</label>
+			<input type="text"class="form-control" name="sexoContato" value="{{sexo}}">
+		</div>
+		<div class="form-group">
+			<label for="dataNascContato">Data De Nascimento</label>
+			<input type="date"class="form-control" name="dataNascContato" value="{{dataNasc}}">
+		</div>
+		<div class="form-group">
+			<input type="submit"class="form-control btn btn-primary mt-2" name="AtualizarContato" value="Excluir">
+		</div>
+	</form>
+</div>
